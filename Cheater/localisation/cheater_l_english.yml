@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   trait_cheater:0 "Cheaters"
   trait_cheater_desc:0 "§LMembers of this species are cheaters.§!\n"
   edict_cheater_generic:0 "Generic cheats"
@@ -23,3 +23,5 @@ l_english:
   edict_cheater_leaders_desc:0 "Leader cap, exp gain, maximum age, and skill levels up. Influence cost down."
   edict_cheater_population:0 "Population cheats"
   edict_cheater_population_desc:0 "Ethic shifts, food requirements, xenophobia, and resettlement cost down. Happiness, environment tolerance, migration speed, other species happiness, and fortification defenses up."
+  leader_trait_cheatscientist:0 "Cheater Scientist"
+  leader_trait_cheatscientist_desc:0 "Boosts to sciency stuff"
