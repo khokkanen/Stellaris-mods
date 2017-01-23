@@ -1,0 +1,205 @@
+country_edict = {
+	name = "cheater_generic"
+	modifier = {
+		pop_ethic_shift = -0.10
+		all_technology_research_speed = 0.40
+		science_ship_survey_speed = 0.25
+		ship_anomaly_generation_chance_mult = 0.10
+		pop_happiness = 0.15
+		navy_size_mult = 0.35
+		ship_reparation_speed_mult = 0.15
+		country_ship_upgrade_cost_mult = -0.15
+		slave_production_output = 0.1
+		slave_food_output = 0.1
+		pop_robot_production_output = 0.1
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_influence"
+	modifier = {
+		rivalry_influence_gain = 5.0
+		edict_influence_cost = -0.95
+		influence_gain_add = 5
+		influence_gain_mult = 25.0
+		diplomacy_influence_cost = -0.95
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_research"
+	modifier = {
+		tile_resource_engineering_research_mult = 3125.0
+		tile_resource_physics_research_mult = 3125.0
+		tile_resource_society_research_mult = 3125.0
+		all_technology_research_speed = 5.0
+		num_tech_alternatives_add = 5
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_resources"
+	modifier = {
+		tile_resource_energy_mult = 25.0
+		tile_resource_minerals_mult = 25.0
+		tile_resource_food_mult = 25.0
+		max_minerals = 78125
+		max_energy = 78125
+		slave_production_output = 5.0
+		slave_food_output = 5.0
+		pop_robot_production_output = 5.0
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#country_edict = {
+#	name = "cheater_exploration"
+#	modifier = {
+#		ship_anomaly_generation_chance_mult = 5.0
+#		ship_anomaly_research_speed_mult = 125.0
+#		science_ship_survey_speed = 125.0
+#		ship_anomaly_fail_risk = -0.95
+#	}
+#	influence_cost = 0.01
+#	ai_weight = {
+#		weight = 0
+#	}
+#}
+
+country_edict = {
+	name = "cheater_construction"
+	modifier = {
+		spaceport_ship_build_speed_mult = 125.0
+		spaceport_ship_build_cost_mult = -0.95
+		shipsize_constructor_build_cost_mult = -0.95
+		shipsize_science_build_cost_mult = -0.95
+		shipsize_corvette_construction_speed_mult = 125.0
+		shipsize_corvette_build_cost_mult = -0.95
+		shipsize_destroyer_construction_speed_mult = 125.0
+		shipsize_destroyer_build_cost_mult = -0.95
+		shipsize_cruiser_construction_speed_mult = 125.0
+		shipsize_cruiser_build_cost_mult = -0.95
+		shipsize_battleship_construction_speed_mult = 125.0
+		shipsize_battleship_build_cost_mult = -0.95
+		shipsize_anchor_station_construction_speed_mult = 125.0
+		shipclass_military_station_build_cost_mult = -0.95
+		shipsize_research_station_build_cost_mult = -0.95
+		shipsize_mining_station_build_cost_mult = -0.95
+		shipsize_orbital_station_build_cost_mult = -0.95
+		shipsize_outpost_station_build_cost_mult = -0.95
+		country_ship_upgrade_cost_mult = -0.95
+		ship_reparation_speed_mult = 125.0
+		ship_reparation_cost_mult = -0.95
+		planet_building_cost_mult = -0.95
+		building_time_mult = -0.95
+		planet_clear_blocker_cost_mult = -0.95
+		planet_clear_blocker_time_mult = -0.95
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_expansion"
+	modifier = {
+		planet_colony_development_speed_mult = 125.0
+		terraforming_cost_mult = -0.95
+		colony_influence_cost = -0.95
+		shipsize_colonizer_construction_speed_mult = 125.0
+		shipsize_colonizer_build_cost_mult = -0.95
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_navy"
+	modifier = {
+		navy_size_mult = 5.0
+		navy_size_add = 125
+		ship_upkeep_mult = -0.95
+		ship_auto_repair_add = 0.5
+		ship_weapon_damage = 5.0
+		ship_fire_rate_mult = 5.0
+		ship_hitpoints_mult = 5.0
+		ship_armor_mult = 5.0
+		ship_shield_hp_mult = 5.0
+		ship_combat_speed_mult = 5.0
+		ship_speed_mult = 5.0
+		ship_interstellar_speed_mult = 5.0
+		ship_sensor_range_mult = 5.0
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_army"
+	modifier = {
+		army_damage_mult = 5.0
+		army_upkeep_mult = -0.95
+		army_morale = 5.0
+		army_health = 5.0
+		planet_army_build_speed_mult = 125.0
+		planet_army_build_cost_mult = -0.95
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_leaders"
+	modifier = {
+		country_leader_cap = 25
+		species_leader_exp_gain = 5.0
+		leader_age = 125
+		leader_skill_levels = 5
+		leader_influence_cost = -0.95
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
+
+country_edict = {
+	name = "cheater_population"
+	modifier = {
+		pop_ethic_shift = -0.95
+		pop_happiness = 5.0
+		pop_environment_tolerance = 5.0
+		pop_xenophobia = -0.95
+		pop_food_req_mult = -0.95
+		pop_resettlement_cost_mult = -0.95
+		pop_migration_speed = 5.0
+		pop_other_species_happiness = 5.0
+		pop_fortification_defense = 5.0
+	}
+	influence_cost = 0.01
+	ai_weight = {
+		weight = 0
+	}
+}
