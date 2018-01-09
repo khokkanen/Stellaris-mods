@@ -126,6 +126,8 @@ country_edict = {
 		terraforming_cost_mult = -0.95
 		shipsize_colonizer_construction_speed_mult = 125.0
 		shipsize_colonizer_build_cost_mult = -0.95
+		ship_ftl_wormhole_speed_mult = 5.0
+		ship_ftl_wormhole_range_mult = 5.0
 	}
 	influence_cost = 0.01
 	ai_weight = {
@@ -202,6 +204,7 @@ country_edict = {
 		pop_other_species_happiness = 5.0
 		pop_fortification_defense = 5.0
 		pop_consumer_goods_mult = -0.95
+		pop_robot_build_speed_mult = 50.0
 	}
 	influence_cost = 0.01
 	ai_weight = {
