@@ -1,0 +1,157 @@
+
+# All leaders will have a common trait-point value set in defines, which they use to grab traits
+
+# leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
+# initial = no - if set to no, this trait can not be granted to leaders when they are generated
+# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
+# requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
+# prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
+
+
+leader_trait_cheatermax = {
+	cost = 1
+	modification = no
+	requires_traits = { trait_species_cheatermax }
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_cyborg.dds"
+	custom_tooltip = leader_trait_archaeologist_tooltip
+		self_modifier = {
+			
+			# Every Precursor anomaly category needs to be listed here
+			vultaum_1_cat_research_speed_mult = 25.0
+			vultaum_1_cat_research_fail_risk_add = -0.95
+			vultaum_2_cat_research_speed_mult = 25.0
+			vultaum_2_cat_research_fail_risk_add = -0.95
+			vultaum_3_cat_research_speed_mult = 25.0
+			vultaum_3_cat_research_fail_risk_add = -0.95
+			vultaum_4_cat_research_speed_mult = 25.0
+			vultaum_4_cat_research_fail_risk_add = -0.95
+			vultaum_5_cat_research_speed_mult = 25.0
+			vultaum_5_cat_research_fail_risk_add = -0.95
+			vultaum_6_cat_research_speed_mult = 25.0
+			vultaum_6_cat_research_fail_risk_add = -0.95
+			vultaum_7_cat_research_speed_mult = 25.0
+			vultaum_7_cat_research_fail_risk_add = -0.95
+			vultaum_8_cat_research_speed_mult = 25.0
+			vultaum_8_cat_research_fail_risk_add = -0.95
+			vultaum_9_cat_research_speed_mult = 25.0
+			vultaum_9_cat_research_fail_risk_add = -0.95
+			vultaum_10_cat_research_speed_mult = 25.0
+			vultaum_10_cat_research_fail_risk_add = -0.95
+			vultaum_11_cat_research_speed_mult = 25.0
+			vultaum_11_cat_research_fail_risk_add = -0.95
+
+			yuht_1_cat_research_speed_mult = 25.0
+			yuht_1_cat_research_fail_risk_add = -0.95
+			yuht_2_cat_research_speed_mult = 25.0
+			yuht_2_cat_research_fail_risk_add = -0.95
+			yuht_3_cat_research_speed_mult = 25.0
+			yuht_3_cat_research_fail_risk_add = -0.95
+			yuht_4_cat_research_speed_mult = 25.0
+			yuht_4_cat_research_fail_risk_add = -0.95
+			yuht_5_cat_research_speed_mult = 25.0
+			yuht_5_cat_research_fail_risk_add = -0.95
+			yuht_6_cat_research_speed_mult = 25.0
+			yuht_6_cat_research_fail_risk_add = -0.95
+			yuht_7_cat_research_speed_mult = 25.0
+			yuht_7_cat_research_fail_risk_add = -0.95
+			yuht_8_cat_research_speed_mult = 25.0
+			yuht_8_cat_research_fail_risk_add = -0.95
+			yuht_9_cat_research_speed_mult = 25.0
+			yuht_9_cat_research_fail_risk_add = -0.95
+			
+			league_1_cat_research_speed_mult = 25.0
+			league_1_cat_research_fail_risk_add = -0.95
+			league_2_cat_research_speed_mult = 25.0
+			league_2_cat_research_fail_risk_add = -0.95
+			league_3_cat_research_speed_mult = 25.0
+			league_3_cat_research_fail_risk_add = -0.95
+			league_4_cat_research_speed_mult = 25.0
+			league_4_cat_research_fail_risk_add = -0.95
+			league_5_cat_research_speed_mult = 25.0
+			league_5_cat_research_fail_risk_add = -0.95
+			league_6_cat_research_speed_mult = 25.0
+			league_6_cat_research_fail_risk_add = -0.95
+			league_7_cat_research_speed_mult = 25.0
+			league_7_cat_research_fail_risk_add = -0.95
+			league_8_cat_research_speed_mult = 25.0
+			league_8_cat_research_fail_risk_add = -0.95
+			league_9_cat_research_speed_mult = 25.0
+			league_9_cat_research_fail_risk_add = -0.95
+			league_10_cat_research_speed_mult = 25.0
+			league_10_cat_research_fail_risk_add = -0.95
+			league_11_cat_research_speed_mult = 25.0
+			league_11_cat_research_fail_risk_add = -0.95
+			league_12_cat_research_speed_mult = 25.0
+			league_12_cat_research_fail_risk_add = -0.95
+			league_13_cat_research_speed_mult = 25.0
+			league_13_cat_research_fail_risk_add = -0.95
+			league_14_cat_research_speed_mult = 25.0
+			league_14_cat_research_fail_risk_add = -0.95
+			
+			irassian_1_cat_research_speed_mult = 25.0
+			irassian_1_cat_research_fail_risk_add = -0.95
+			irassian_2_cat_research_speed_mult = 25.0
+			irassian_2_cat_research_fail_risk_add = -0.95
+			irassian_3_cat_research_speed_mult = 25.0
+			irassian_3_cat_research_fail_risk_add = -0.95
+			irassian_4_cat_research_speed_mult = 25.0
+			irassian_4_cat_research_fail_risk_add = -0.95
+			irassian_5_cat_research_speed_mult = 25.0
+			irassian_5_cat_research_fail_risk_add = -0.95
+			irassian_6_cat_research_speed_mult = 25.0
+			irassian_6_cat_research_fail_risk_add = -0.95
+			irassian_7_cat_research_speed_mult = 25.0
+			irassian_7_cat_research_fail_risk_add = -0.95
+			irassian_8_cat_research_speed_mult = 25.0
+			irassian_8_cat_research_fail_risk_add = -0.95
+			irassian_9_cat_research_speed_mult = 25.0
+			irassian_9_cat_research_fail_risk_add = -0.95
+			irassian_10_cat_research_speed_mult = 25.0
+			irassian_10_cat_research_fail_risk_add = -0.95
+			irassian_11_cat_research_speed_mult = 25.0
+			irassian_11_cat_research_fail_risk_add = -0.95
+			
+			cybrex_1_cat_research_speed_mult = 25.0
+			cybrex_1_cat_research_fail_risk_add = -0.95
+			cybrex_2_cat_research_speed_mult = 25.0
+			cybrex_2_cat_research_fail_risk_add = -0.95
+			cybrex_3_cat_research_speed_mult = 25.0
+			cybrex_3_cat_research_fail_risk_add = -0.95
+			cybrex_4_cat_research_speed_mult = 25.0
+			cybrex_4_cat_research_fail_risk_add = -0.95
+			cybrex_5_cat_research_speed_mult = 25.0
+			cybrex_5_cat_research_fail_risk_add = -0.95
+			cybrex_6_cat_research_speed_mult = 25.0
+			cybrex_6_cat_research_fail_risk_add = -0.95
+			cybrex_7_cat_research_speed_mult = 25.0
+			cybrex_7_cat_research_fail_risk_add = -0.95
+			cybrex_8_cat_research_speed_mult = 25.0
+			cybrex_8_cat_research_fail_risk_add = -0.95
+			cybrex_9_cat_research_speed_mult = 25.0
+			cybrex_9_cat_research_fail_risk_add = -0.95
+			cybrex_10_cat_research_speed_mult = 25.0
+			cybrex_10_cat_research_fail_risk_add = -0.95
+			cybrex_11_cat_research_speed_mult = 25.0
+			cybrex_11_cat_research_fail_risk_add = -0.95
+			
+			VULTAUMAR_research_speed_mult = 25.0
+			VULTAUMAR_research_fail_risk_add = -0.95
+			YUHTAAN_research_speed_mult = 25.0
+			YUHTAAN_research_fail_risk_add = -0.95
+			FEN_HABBANIS_research_speed_mult = 25.0
+			FEN_HABBANIS_research_fail_risk_add = -0.95
+			IRASSIA_research_speed_mult = 25.0
+			IRASSIA_research_fail_risk_add = -0.95
+		}
+	leader_trait = yes
+	leader_class = { scientist }
+	
+	ai_categories = {
+		survey
+	}
+	
+	ai_weight = {
+		weight = -25
+	}
+}

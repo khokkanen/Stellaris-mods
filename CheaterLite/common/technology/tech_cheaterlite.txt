@@ -1,0 +1,16 @@
+tech_cheaterlite_robots = {
+	cost = 5
+	area = engineering
+	tier = 1
+	category = { industry }	
+	prerequisites = { "tech_powered_exoskeletons" }
+	weight = 100
+	
+	gateway = robotics
+		
+	## unlock cheaterlite robots
+	
+	ai_weight = {
+		weight = -25
+	}
+}

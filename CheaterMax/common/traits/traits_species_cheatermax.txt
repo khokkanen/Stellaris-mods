@@ -1,0 +1,28 @@
+trait_species_cheatermax = {
+	cost = 0
+	icon = "gfx/interface/icons/trait_cybernetic.dds"
+	modification = no
+	randomized = no
+	allowed_archetypes = { BIOLOGICAL }
+	modifier = {
+		tile_resource_food_mult = 25.0
+		tile_resource_energy_mult = 25.0
+		tile_resource_minerals_mult = 25.0
+		tile_resource_engineering_research_mult = 25.0
+		tile_resource_physics_research_mult = 25.0
+		tile_resource_society_research_mult = 25.0
+		pop_environment_tolerance = 25.0
+		pop_growth_speed = 25.0
+		species_leader_exp_gain = 5.0
+		army_damage_mult = 25.0
+		pop_migration_speed = 25.0
+		pop_resettlement_cost_mult = -0.95
+		pop_happiness = 25.0
+		pop_other_species_owner_happiness = 25.0
+		pop_government_ethic_attraction = 25.0
+		leader_age = 3125
+		garrison_health = 25.0
+		pop_fortification_defense = 25.0
+		pop_consumer_goods_mult = -0.95
+	}
+}

@@ -1,0 +1,74 @@
+##########################################################################
+# Empire edicts
+##########################################################################
+
+country_edict = {
+	name = "cheatermax_country_edict"
+	modifier = {
+		tile_resource_food_mult = 5.0
+		tile_resource_energy_mult = 5.0
+		tile_resource_minerals_mult = 5.0
+		tile_resource_engineering_research_mult = 25.0
+		tile_resource_physics_research_mult = 25.0
+		tile_resource_society_research_mult = 25.0
+		tile_resource_unity_mult = 25.0
+		country_resource_influence_add = 25
+		all_technology_research_speed = 25.0
+		species_leader_exp_gain = 5.0
+		leader_age = 5000
+		leader_influence_cost = -0.95
+		max_rivalries = 25
+		pop_environment_tolerance = 25.0
+		pop_growth_speed = 25.0
+		pop_migration_speed = 25.0
+		pop_resettlement_cost_mult = -0.95
+		pop_happiness = 25.0
+		pop_other_species_owner_happiness = 25.0
+		pop_government_ethic_attraction = 25.0
+		pop_consumer_goods_add = 25.0
+		pop_consumer_goods_mult = -0.95
+		pop_fortification_defense = 25.0
+		army_damage_mult = 25.0
+		army_upkeep_mult = -0.95
+		army_morale = 25.0
+		garrison_health = 25.0
+		ship_anomaly_research_speed_mult = 25.0
+		ship_anomaly_fail_risk = -0.95
+		ship_anomaly_generation_chance_mult = 25.0
+		science_ship_survey_speed = 25.0
+		ship_armor_add = 5000
+		ship_evasion_mult = 25.0
+		ship_hitpoints_add = 5000
+		ship_hitpoints_mult = 25.0
+		ship_shield_hp_mult = 25.0
+		ship_weapon_damage = 25.0
+		ship_fire_rate_mult = 25.0
+		ship_speed_mult = 25.0
+		ship_combat_speed_mult = 25.0
+		ship_tracking_add = 25
+		ship_upkeep_mult = -0.95
+		navy_size_mult = 25.0
+		spaceport_module_cost_mult  = -0.95
+		spaceport_ship_build_speed_mult = 25.0
+		spaceport_ship_build_time_mult = -0.95
+		planet_building_build_speed_mult = 25.0
+		planet_clear_blocker_time_mult = -0.95
+		planet_army_build_cost_mult = -0.95
+		planet_army_build_speed_mult = 25.0
+		edict_influence_cost = -0.95
+	}
+	
+	influence_cost = 1
+	
+	prerequisites = {
+		"trait_species_cheatermax"
+	}
+
+	potential = {
+		NOT = { has_ethic = ethic_gestalt_consciousness }
+	}
+	
+	ai_weight = {
+		weight = -25
+	}	
+}

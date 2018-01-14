@@ -1,0 +1,7 @@
+﻿l_english:
+  trait_species_cheatermax:0 "Cheaters"
+  trait_species_cheatermax_desc:0 "§LMembers of this species are cheaters.§!\n"
+  edict_cheatermax_country_edict:0 "Generic cheats"
+  edict_cheatermax_country_edict_desc:0 "All positive empire edict modifiers."
+  building_cheatermax:0 "Cheater Complex"
+  building_cheatermax_desc:1 "The Cheater Complex is massive, boosting pretty much everything."

@@ -1,0 +1,62 @@
+#my_buildable_pop = {
+#	TODO lots of stuff missing
+#
+#	species = { ... }				# species template
+#	portrait = {					# change portrait to the first whose trigger matches. leave unchanged from species template if none matches
+#		portrait_key = { trigger }	# scope: country, from: upgraded from species (optional)
+#	}
+#}
+
+buildable_robot_pop_cheaterlite = {
+		
+	prerequisites = {
+		"tech_cheaterlite_robots"
+	}
+	cost = {
+		minerals = 5
+	}
+	
+	allow = {
+		NOR = { 
+			has_policy_flag = robots_outlawed 
+			has_authority = auth_hive_mind
+		}
+	}
+	
+	species = {
+		name = "ROBOT_POP_SPECIES_CHEATERLITE"
+		name_list = "AI"
+		class = "ROBOT"
+		portrait = "default_robot"
+		traits = {
+			trait = "trait_mechanical"
+			trait = "trait_robotic_cheaterlite"
+		}
+		
+		new_pop_resource_requirement = {
+			type = robot_food
+			value = 5.0
+		}
+		pops_auto_growth = 1.0
+		
+		pops_can_be_colonizers = yes
+		pops_can_migrate = yes
+		pops_can_reproduce = yes
+		pops_can_join_factions = yes
+		pop_maintenance = 1
+		can_generate_leaders = yes
+		pops_can_be_slaves = yes
+		pops_have_happiness = yes
+		pop_ethics = random	#can also be pop_ethics = { some_ethic some_other_ethic etc }
+	}
+	portrait = {
+		sd_hum_robot = { use_robot_portrait_sd_hum_robot = yes }
+		sd_mam_robot = { use_robot_portrait_sd_mam_robot = yes }
+		sd_rep_robot = { use_robot_portrait_sd_rep_robot = yes }
+		sd_avi_robot = { use_robot_portrait_sd_avi_robot = yes }
+		sd_art_robot = { use_robot_portrait_sd_art_robot = yes }
+		sd_mol_robot = { use_robot_portrait_sd_mol_robot = yes }
+		sd_fun_robot = { use_robot_portrait_sd_fun_robot = yes }
+		sd_pla_robot = { use_robot_portrait_sd_pla_robot = yes }
+	}
+}

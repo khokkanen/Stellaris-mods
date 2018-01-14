@@ -13,3 +13,9 @@ Species trait adding all positive species modifiers form the standard game.
 Scientis leader trait expediting surveying, increasing anomaly finding chance, and reducing anomaly research risk. Also increases research speed, but it's better to use standard Spark of Genius trait instead combined with research edict.
 
 This mod doesn't overwrite any standard game files or redefine any standard traits or edicts.
+
+##CheaterLite
+A different cheat mod.
+
+##CheaterMax
+Woah, dude. Is that really necessary?

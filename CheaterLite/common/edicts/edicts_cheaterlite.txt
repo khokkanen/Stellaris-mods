@@ -1,0 +1,28 @@
+##########################################################################
+# Empire edicts
+##########################################################################
+
+country_edict = {
+	name = "cheaterlite_country_edict"
+	modifier = {
+		pop_government_ethic_attraction = 0.25
+		science_ship_survey_speed = 0.25
+		ship_anomaly_generation_chance_mult = 0.10
+		country_physics_tech_research_speed = 0.2
+		country_society_tech_research_speed = 0.2
+		country_engineering_tech_research_speed = 0.2
+		navy_size_mult = 0.35
+		ship_reparation_speed_mult = 0.15
+		country_ship_upgrade_cost_mult = -0.15
+	}
+	
+	influence_cost = 1
+	
+	potential = {
+		NOT = { has_ethic = ethic_gestalt_consciousness }
+	}
+	
+	ai_weight = {
+		weight = -25
+	}	
+}
