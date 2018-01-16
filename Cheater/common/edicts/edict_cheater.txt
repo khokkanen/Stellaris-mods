@@ -53,9 +53,9 @@ country_edict = {
 		trait_cheater
 	}
 	modifier = {
-		country_physics_tech_research_speed = 3125.0
-		country_society_tech_research_speed = 3125.0
-		country_engineering_tech_research_speed = 3125.0
+		country_physics_tech_research_speed = 25.0
+		country_society_tech_research_speed = 25.0
+		country_engineering_tech_research_speed = 25.0
 	}
 	influence_cost = 0.01
 	ai_weight = {
@@ -70,10 +70,10 @@ country_edict = {
 	}
 	modifier = {
 		pop_consumer_goods_mult = -0.95
-		tile_resource_energy_mult = 25.0
-		tile_resource_minerals_mult = 25.0
-		tile_resource_food_mult = 25.0
-		tile_resource_unity_mult = 25.0
+		tile_resource_energy_mult = 5.0
+		tile_resource_minerals_mult = 5.0
+		tile_resource_food_mult = 5.0
+		tile_resource_unity_mult = 5.0
 	}
 	influence_cost = 0.01
 	ai_weight = {
@@ -118,7 +118,7 @@ country_edict = {
 		trait_cheater
 	}
 	modifier = {
-		country_leader_cap = 25
+		country_leader_cap = 125
 		pop_government_ethic_attraction = 125.0
 		pop_happiness = 125.0
 	}
@@ -134,8 +134,8 @@ country_edict = {
 		trait_cheater
 	}
 	modifier = {
-		country_trust_growth = 25.0
-		country_trade_attractiveness = 25.0
+		country_trust_growth = 125.0
+		country_trade_attractiveness = 125.0
 	}
 	influence_cost = 0.01
 	ai_weight = {

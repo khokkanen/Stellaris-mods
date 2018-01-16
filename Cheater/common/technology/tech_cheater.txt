@@ -4,14 +4,14 @@ tech_cheater_everything = {
 	tier = 1
 	category = { computing }
 	prerequisites = { "trait_cheater" }
-	weight = 100
+	weight = 1000
 
 	ai_weight = {
 		weight = -25
 	}
 	
 	modifier = {
-		all_technology_research_speed = 3125.0
+		all_technology_research_speed = 25.0
 		army_damage_mult = 5.0
 		army_health = 5.0
 		army_upkeep_mult = -0.95
@@ -20,7 +20,7 @@ tech_cheater_everything = {
 		country_colony_influence_cost_mult = -0.95
 		country_core_sector_system_cap = 5
 		country_government_civic_points_add = 5
-		country_leader_cap = 25
+		country_leader_cap = 125
 		country_leader_pool_size = 5
 		country_resource_influence_add = 25
 		country_sector_cap_add  = 5
