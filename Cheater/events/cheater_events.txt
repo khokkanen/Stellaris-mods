@@ -1,0 +1,29 @@
+namespace = cheater_event
+
+### Hidden Game Start Event
+event = {
+	id = cheater_event.1
+	hide_window = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		every_country = {
+			limit = { is_ai = no }
+			country_event = { id = cheater_event.2 }
+		}
+	}
+}
+
+country_event = {
+	id = cheater_event.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = { is_ai = no }
+
+	immediate = {
+		add_modifier = {
+			modifier = "cheater_modifier"
+			days = -1
+		}
+	}
+}
