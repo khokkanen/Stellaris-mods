@@ -1,0 +1,17 @@
+﻿	NGameplay = {
+		CONSTRUCTION_SHIP_WORK_SPEED_MULT = 5	# Construction ship construction speed multiplier
+
+		SPECIAL_PROJECT_BASE_PROGRESS		= 0.1	# i in the equation for special project time: x = (k * i) / (i + (y1 - z1) + (y2 - z2)... + (yn - zn))
+#		MONUMENTAL_UNDERTAKING_DAYS			= 730	# project time to consider it a monumental undertaking.
+#		MODERATE_UNDERTAKING_DAYS			= 180	# project time to consider it a moderate undertaking.
+
+		ANOMALY_RISK_MIN						= 0		# Risk is never less than this
+	}
+
+	NEconomy = {
+		START_ENERGY 						= 500.0	# The amount of money each country starts with
+		START_INFLUENCE 					= 500.0	# The amount of influence each country starts with
+#		START_UNITY							= 0.0		# The amount of unity each country starts with
+		START_MINERALS						= 1000.0	# The amount of minerals each country starts with
+#		OUTPOST_STATION_INFLUENCE_MAINTENANCE = 1.0	# Monthly outpost station Influence maintenance
+	}
