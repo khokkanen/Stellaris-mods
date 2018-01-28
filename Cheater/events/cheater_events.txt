@@ -98,7 +98,52 @@ country_event = {
 			}
 		}
 		
+		while = {
+			count = 1000
+			capital_scope = {
+				closest_system = {
+					limit = {
+						any_planet = {
+							is_surveyed = {
+								who = ROOT
+								status = no
+							}
+						}
+					}
+					every_system_planet = {
+						limit = {
+							NOT = { has_planet_flag = guardians_wraith_pulsar }
+						}
+						surveyed = {
+							set_surveyed = yes
+							surveyor = ROOT
+						}
+					}
+					root = {
+						clear_uncharted_space = {
+							from = prev
+							radius = 20
+						}
+					}
+				}
+			}
+		}
+
 		give_technology = { tech = tech_psionic_theory }
 		give_technology = { tech = tech_automated_exploration }
+		give_technology = { tech = tech_tb_mountain_range }
+		give_technology = { tech = tech_tb_volcano }
+		give_technology = { tech = tech_tb_dangerous_wildlife }
+		give_technology = { tech = tech_tb_dense_jungle }
+		give_technology = { tech = tech_tb_quicksand_basin }
+		give_technology = { tech = tech_tb_noxious_swamp }
+		give_technology = { tech = tech_tb_massive_glacier }
+		give_technology = { tech = tech_tb_toxic_kelp }
+		give_technology = { tech = tech_tb_deep_sinkhole }
+		give_technology = { tech = tech_terrestrial_sculpting }
+		give_technology = { tech = tech_atmospheric_manipulation }
+		give_technology = { tech = tech_ecological_adaptation }
+		give_technology = { tech = tech_climate_restoration }
+		give_technology = { tech = tech_gaia_creation }
 	}
 }
