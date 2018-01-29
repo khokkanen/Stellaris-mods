@@ -98,36 +98,73 @@ country_event = {
 			}
 		}
 		
-		while = {
-			count = 1000
-			capital_scope = {
-				closest_system = {
-					limit = {
-						any_planet = {
-							is_surveyed = {
-								who = ROOT
-								status = no
-							}
-						}
-					}
-					every_system_planet = {
-						limit = {
-							NOT = { has_planet_flag = guardians_wraith_pulsar }
-						}
-						surveyed = {
-							set_surveyed = yes
-							surveyor = ROOT
-						}
-					}
-					root = {
-						clear_uncharted_space = {
-							from = prev
-							radius = 20
-						}
-					}
-				}
-			}
-		}
+#		begin_event_chain = {
+#			event_chain = "rogue_scientist_1_chain"
+#			target = root
+#		}
+
+#		begin_event_chain = {
+#			event_chain = "vultaum_chain"
+#			target = root
+#		}
+
+#		begin_event_chain = {
+#			event_chain = "yuht_chain"
+#			target = root
+#		}
+
+#		begin_event_chain = {
+#			event_chain = "first_league_chain"
+#			target = root
+#		}
+
+#		begin_event_chain = {
+#			event_chain = "irassian_chain"
+#			target = root
+#		}
+
+#		begin_event_chain = {
+#			event_chain = "cybrex_chain"
+#			target = root
+#		}
+
+#		begin_event_chain = {
+#			event_chain = "old_gods_chain"
+#			target = root
+#		}
+
+#		begin_event_chain = {
+#			event_chain = "star_power_chain"
+#			target = root
+#		}
+
+#		while = {
+#			count = 1000
+#			capital_scope = {
+#				closest_system = {
+#					limit = {
+#						any_planet = {
+#							is_surveyed = {
+#								who = root
+#								status = no
+#							}
+#						}
+#					}
+#					every_system_planet = {
+#						surveyed = {
+#							set_surveyed = yes
+#							surveyor = ROOT
+#						}
+#					}
+#					root = {
+#						clear_uncharted_space = {
+#							from = prev
+#							radius = 20
+#						}
+#					}
+#				}
+#			}
+#		}
 
 		give_technology = { tech = tech_psionic_theory }
 		give_technology = { tech = tech_automated_exploration }
